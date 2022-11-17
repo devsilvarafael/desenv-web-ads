@@ -42,7 +42,10 @@ export const Login = () => {
       return router.push("/store");
     }
 
-    toast.error("Login inválido", { autoClose: 2000 });
+    toast.error("Login inválido", {
+      autoClose: 2000,
+      position: "top-center",
+    });
   }
 
   return (
