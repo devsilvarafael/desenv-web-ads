@@ -1,0 +1,16 @@
+.loginContainer {
+  display: flex;
+  width: 500px;
+
+  flex-direction: column;
+  padding: 2.5rem;
+  border-radius: 10px;
+}
+
+.buttonGroup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+}
