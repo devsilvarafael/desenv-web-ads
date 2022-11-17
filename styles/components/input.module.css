@@ -1,0 +1,25 @@
+.label {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #414141;
+}
+
+.icon {
+  max-width: 90px;
+  margin: 0 0.5rem;
+}
+
+.input {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+
+  padding: 0.7rem;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
