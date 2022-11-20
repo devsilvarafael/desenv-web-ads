@@ -53,7 +53,7 @@ export const Login = () => {
       <Input
         icon={<FaUserAlt />}
         label="Usuário"
-        placeholder="seuemail@gmail.com"
+        placeholder="Insira seu usuário"
         type="text"
         value={userLogin.username}
         name="username"

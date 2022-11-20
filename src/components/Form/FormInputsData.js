@@ -4,7 +4,7 @@ const formInputs = [
     name: "document",
   },
   {
-    textField: "Nome",
+    textField: "Nome ou Razão Social",
     name: "username",
   },
   {
@@ -12,7 +12,7 @@ const formInputs = [
     name: "address",
   },
   {
-    textField: "Password",
+    textField: "Senha",
     name: "password",
   },
 ];
