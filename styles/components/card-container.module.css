@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  min-height: 100vh;
+
+  padding: 0 2rem;
+
+  background-color: rgba(167, 167, 167, 0.1);
+  background: url("https://png.pngtree.com/background/20210711/original/pngtree-cool-background-with-geometric-80s-design-picture-image_1157575.jpg")
+    center no-repeat;
+  background-size: cover;
+
+  border-radius: 0.5rem;
+
+  place-items: center;
+
+  max-width: 1900px;
+}

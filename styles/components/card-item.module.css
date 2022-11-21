@@ -1,0 +1,44 @@
+.card {
+  width: 350px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.2);
+
+  margin: 2rem 0;
+}
+
+.cardTitle {
+  height: 40px;
+  color: #fbfbfb;
+
+  max-width: 200px;
+}
+
+.cardImg {
+  max-width: 200px;
+  max-height: 200px;
+
+  border-radius: 0.5rem;
+}
+
+.cardPrice {
+  color: #e58e27;
+  width: 100%;
+
+  font-weight: 600;
+}
+
+.icon {
+  color: #e58e27;
+  outline: 1px solid #e58e27;
+  background-color: rgba(146, 101, 98, 0.2);
+
+  width: 100%;
+  padding: 0.4em;
+
+  cursor: pointer;
+}

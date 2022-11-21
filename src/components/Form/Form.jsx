@@ -16,7 +16,6 @@ export const Form = ({ closeModal }) => {
     document: "",
     username: "",
     password: "",
-    address: "",
   });
 
   function handleChange(event) {

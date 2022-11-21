@@ -5,9 +5,9 @@ import { Form } from "./Form";
 const customModalStyle = {
   content: {
     width: 500,
-    height: 500,
-    left: "35%",
-    top: "20%",
+    height: 460,
+    left: "36%",
+    top: "22%",
     borderRadius: "0.5rem",
   },
 };

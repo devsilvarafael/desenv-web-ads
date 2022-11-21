@@ -1,10 +1,6 @@
 const formInputs = [
   {
-    textField: "CPF ou CNPJ",
-    name: "document",
-  },
-  {
-    textField: "Nome ou Razão Social",
+    textField: "Usuário",
     name: "username",
   },
   {
