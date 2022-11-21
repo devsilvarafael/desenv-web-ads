@@ -29,7 +29,10 @@ export const Form = ({ closeModal }) => {
   function handleSubmit() {
     setAccount(newRegister);
 
-    toast.success("Cadastro realizado com sucesso", { autoClose: 2000 });
+    toast.success("Cadastro realizado com sucesso", {
+      autoClose: 2000,
+      position: "top-center",
+    });
 
     closeModal(true);
   }
